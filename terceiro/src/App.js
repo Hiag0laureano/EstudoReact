@@ -1,14 +1,10 @@
+import { useState } from "react";
 function App() {
-  let styles = {
-    backgroundColor: "#300",
-    color: "#fff",
-    display: "flex",
-    flex: 1,
-    height: "100vh",
-  };
+  const [n, setN] = useState(1);
   return (
-    <div style={styles}>
-      <p>Você é programador cara!!!</p>
+    <div>
+      <p>{n}</p>
+      <button onClick={() => setN(n + 1)}>Clique</button>
     </div>
   );
 }

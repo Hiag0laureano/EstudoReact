@@ -10,10 +10,30 @@
   justify-content: center;
   align-items: center;
   color: #fff;
-  background-color: rgb(228, 0, 38);
+  background-image: url(https://media.istockphoto.com/photos/blue-gradient-soft-background-picture-id919834638?k=20&m=919834638&s=170667a&w=0&h=0uhcQ8bQduhlNOBxtQSfUk1LodzDz9vgycnVfepesqI=);
+  background-size: 100%;
 }
 .header img {
   width: 140px;
   height: 140px;
   margin: 10px;
+}
+.main {
+  height: 65vh;
+  padding: 20px;
+  background-image: url(https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmFja2dyb3VuZCUyMGJsYWNrfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+  color: #fff;
+  background-size: 100%;
+}
+.footer {
+  height: 15vh;
+  background-image: url(https://media.istockphoto.com/photos/blue-gradient-soft-background-picture-id919834638?k=20&m=919834638&s=170667a&w=0&h=0uhcQ8bQduhlNOBxtQSfUk1LodzDz9vgycnVfepesqI=);
+  background-size: 100%;
+  color: #fff;
+  text-align: center;
+}
+.footer a {
+  text-decoration: none;
+  display: block;
+  color: #fff;
 }

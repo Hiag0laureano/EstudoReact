@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  /* background-color: rgb(103, 129, 99); */
+  background-image: url(https://i.pinimg.com/736x/25/2f/c9/252fc9ae44c54d96ffef3ca7ffe48dee.jpg);
+}
+.header img {
+  min-width: 20%;
+  max-width: 20%;
+}
+.header h1 {
+  width: 100%;
+  text-align: center;
+  font-family: verdana;
+}
+.header h2 {
+  width: 80%;
+  text-align: right;
+  font-family: verdana;
+}
+.container {
+  display: flex;
+  direction: row;
+}
+.container .mensagem {
+  width: 30vw;
+  padding: 20px;
+  margin: 5px;
+  height: 70vh;
+  background-color: rgb(221, 219, 219);
+  box-shadow: 0 0 10px 2px silver;
+  border-radius: 20px;
+}
+.container .conteudo {
+  width: 70vw;
+  padding: 20px;
+  margin: 5px;
+  height: 70vh;
+}

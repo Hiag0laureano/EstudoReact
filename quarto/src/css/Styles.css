@@ -32,13 +32,54 @@
   padding: 20px;
   margin: 5px;
   height: 70vh;
-  background-color: rgb(221, 219, 219);
+  background-color: rgb(0, 0, 0);
   box-shadow: 0 0 10px 2px silver;
   border-radius: 20px;
+  color: white;
 }
 .container .conteudo {
   width: 70vw;
   padding: 20px;
   margin: 5px;
   height: 70vh;
+}
+.itens div {
+  width: 30%;
+  height: 200px;
+  padding: 30px;
+  background-color: rgb(36, 129, 52);
+  box-shadow: 0 0 5px 2px silver;
+  margin: 10px;
+  cursor: pointer;
+  transition: ease 0.5s;
+  color: white;
+  border-radius: 10px;
+}
+.itens div:hover {
+  transform: scale(1.1);
+  background-color: black;
+  color: white;
+}
+.itens {
+  display: flex;
+  flex-direction: row;
+}
+.container .conteudo h2 {
+  font-size: 23pt;
+  font-weight: lighter;
+  font-family: "lucida Sans";
+  text-align: center;
+  margin-bottom: 30px;
+}
+.itens h3 {
+  font-family: "Lucida Sans";
+  font-size: 15pt;
+}
+.itens p {
+  font-family: "Lucida Sans";
+  font-size: 10pt;
+}
+.itens .preco {
+  font-size: 15pt;
+  color: rgb(255, 255, 255);
 }
